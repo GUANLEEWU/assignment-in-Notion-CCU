@@ -1,5 +1,5 @@
 # assignment-in-Notion
-A python program specifically designed for students of CCU, it collect all your assignments available in eCourse2 and put them in a Notion database via API, which allows us to view these assignments the way we want to, for example, use calendar view to show the deadlines or categorize each assignment according to its subject.
+A Python program specifically designed for students of CCU, it collect all your assignments available in eCourse2 and put them in a Notion database via API, which allows us to view these assignments the way we want to, for example, use calendar view to show the deadlines or categorize each assignment according to its subject.
 
 **Since the program is originally designed for personal use, its readiblity, flexibility and efficiency is still far from perfeciton, sorry about that.**
 ## How to use
