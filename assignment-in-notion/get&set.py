@@ -9,11 +9,11 @@ intervalUnit = 1 # wait time for loading page etc.
 # webdriver setting
 chrome_options = Options()
 prefs = {"profile.managed_default_content_settings.images": 2}
+chrome_options.add_argument('--window-size=1200,900')
 chrome_options.add_experimental_option("prefs", prefs)
 chrome_options.add_argument('--disable-dev-shm-usage')
 chrome_options.add_argument('--no-sandbox')
-drA = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options) #initiate webdriver
-drA.maximize_window()
+drA = webdriver.Chrome(ChromeDriverManager().install(),options=chrome_options) #initialize webdriver
 
 #Login
 drA.get("https://ecourse2.ccu.edu.tw")
