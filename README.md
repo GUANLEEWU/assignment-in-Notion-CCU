@@ -24,7 +24,7 @@ After the above setting is done, execute **get&set.py** and you will see all you
 
 ## Content
 There are mainly two python file in this program.
-### get&set.py
+### getAndSet.py
 It's the file to be executed.
 When executed, the program open a webdriver using the **selenium**,a library specifically designed for web scraping.\
 Initially it would be directed to the login page of eCourse2, then it logs in, opens the links of the courses one by one.
