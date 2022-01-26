@@ -83,7 +83,7 @@ for assign in ldata:
     lsep = [rawDate.index("年"),rawDate.index("月"),rawDate.index("日")] #for retriving Y,M,D seperatly
     datev = datetime.datetime(int(rawDate[:lsep[0]]),int(rawDate[lsep[0]+1:lsep[1]]),int(rawDate[lsep[1]+1:lsep[2]])) #convert it into a datetime object
     hm = [int(x) for x in rawDate[-5:].split(':')]
-    datev += datetime.timedelta(hours=hm[0],minutes=hm[1]) #set its HH:mm to 23:59
+    datev += datetime.timedelta(hours=hm[0],minutes=hm[1]) #set its HH:mm
     timezone = pytz.timezone("Asia/Taipei")
     datev = timezone.localize(datev) #setting timezone
     tempRow.set("Deadline",datev.isoformat(),"date") # set the value of property to the deadline in ISO formatting(Notion requires it)
