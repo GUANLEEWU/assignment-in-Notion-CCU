@@ -3,7 +3,8 @@ A Python program specifically designed for students of CCU, it collects all your
 
 **Since the program is originally designed for personal use, its readiblity, flexibility and efficiency is still far from perfeciton, sorry about that.**
 ## How to use
-You need to have a Notion account first, it's free to register, and it even unlocks unlimited plan if you register your account with the school's gamil account.\
+First, make sure the following Python module is installed: **webdriver-manager**, **selenium**, **pytz**.\
+You need to have a Notion account, it's free to register, and it even unlocks unlimited plan if you register your account with the school's gamil account.\
 First, go to this webpage: https://lateral-havarti-7dd.notion.site/My-Assignments-10654ef5bf544c928733226d7fb0f05b
 
 ![alt](https://github.com/rTheDev/imgs/blob/main/Screen%20Shot%202022-01-24%20at%2011.01.15%20PM.png)
