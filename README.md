@@ -1,4 +1,4 @@
-# assignment-in-Notion
+# assignment-in-Notion-CCU
 A Python program specifically designed for students of CCU, it collects all your assignments available in eCourse2 and put them in a Notion database via API, which allows us to view these assignments the way we want to, for example, use calendar view to show the deadlines or categorize each assignment according to its subject.
 
 **Since the program is originally designed for personal use, its readiblity, flexibility and efficiency is still far from perfeciton, sorry about that.**
@@ -24,7 +24,7 @@ After the above setting is done, execute **get&set.py** and you will see all you
 
 ## Content
 There are mainly two python file in this program.
-### get&set.py
+### getAndSet.py
 It's the file to be executed.
 When executed, the program open a webdriver using the **selenium**,a library specifically designed for web scraping.\
 Initially it would be directed to the login page of eCourse2, then it logs in, opens the links of the courses one by one.
