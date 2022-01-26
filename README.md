@@ -3,7 +3,8 @@ A Python program specifically designed for students of CCU, it collects all your
 
 **Since the program is originally designed for personal use, its readiblity, flexibility and efficiency is still far from perfeciton, sorry about that.**
 ## How to use
-You need to have a Notion account first, it's free to register, and it even unlocks unlimited plan if you register your account with the school's gamil account.\
+First, make sure the following Python module is installed: **webdriver-manager**, **selenium**, **pytz**.\
+You need to have a Notion account, it's free to register, and it even unlocks unlimited plan if you register your account with the school's gamil account.\
 First, go to this webpage: https://lateral-havarti-7dd.notion.site/My-Assignments-10654ef5bf544c928733226d7fb0f05b
 
 ![alt](https://github.com/rTheDev/imgs/blob/main/Screen%20Shot%202022-01-24%20at%2011.01.15%20PM.png)
@@ -19,6 +20,8 @@ Now go to this webpage:https://www.notion.so/my-integrations
 Log in, click **create new integration**, then you get your **integration token**
 ![alt](https://github.com/rTheDev/imgs/blob/main/Screen%20Shot%202022-01-24%20at%2011.03.52%20PM.png)
 ![alt](https://github.com/rTheDev/imgs/blob/main/Screen%20Shot%202022-01-24%20at%2011.04.20%20PM.png)
+After the integration is created, go back to Notion(the place you went after you clicked "open as page"), click the **share** button on the top-right corner, click **invite** , then pick the integration you just created, this would allow the integration to control this particular page(in this case, the assignments database). 
+![alt](https://github.com/rTheDev/imgs/blob/main/Screen%20Shot%202022-01-26%20at%2010.26.53%20PM.png)
 Download the source code and open it with an IDE. Assign the **integration token** and **database-id** to the corresponding variable in **secret.py**, finally keys in your eCourse2 account and password.\
 After the above setting is done, execute **get&set.py** and you will see all your assignments being added to your Notion page automatically.
 
